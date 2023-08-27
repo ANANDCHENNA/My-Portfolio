@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand's Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "images/logo white.png" type = "image/x-icon">
+    <script src="https://kit.fontawesome.com/54bd61d9fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-dark.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fa-solid fa-bars-staggered" onclick="closemenu()"></i>
+                
+            </ul>
+            <i id="menu" class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm Chenna <br><span>Anand</span> From India</h1>
+        </div>
+    </div>
+</div>
+<!-- --------------About---------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>• Knowledge of basics of
+                    programming languages like Java,
+                    Python
+                    • Good Knowledge of concepts in
+                    OOPs in Java and Data Structures and
+                    Algorithms
+                    • Quick Learner • Good grasping
+                    ability • Logical Skills ,Initiator and
+                    passionate about working</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Front End</span><br>Web Developer</li>
+                            <li><span>Back End</span><br>Web Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>I'm still <span>STUDENT</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Sep 2021 - Present</span><br>VELTECH
+                                UNIVERSITY ,AVADI , CHENNAI</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------services-------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Hello! I'm a web developer showcasing my Personal Portfolio here.
+                     Explore my project ranging from website to interactive app, all
+                      designed and coded by me. Dive into my world of coding and creativity!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Hello! I'm a web developer showcasing my Personal Portfolio here. 
+                    Explore my project ranging from website to interactive app, all 
+                    designed and coded by me. Dive into my world of coding and creativity!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Hello! I'm a web developer showcasing my Personal Portfolio here. 
+                    Explore my project ranging from website to interactive app, all
+                     designed and coded by me. Dive into my world of coding and creativity!</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ------------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/profile.png" alt="">
+                <div class="layer">
+                    <h3>Shopping Website</h3>
+                    <p>this particular website is inspired by e-shopping 
+                        websites are already existed in the market</p>
+                    <a href="https://anandchenna.github.io/shopeasy/shop.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/profile.png" alt="">
+                <div class="layer">
+                    <h3>Shopping Website</h3>
+                    <p>this particular website is inspired by e-shopping 
+                        websites are already existed in the market</p>
+                    <a href="https://anandchenna.github.io/shopeasy/shop.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/profile.png" alt="">
+                <div class="layer">
+                    <h3>Shopping Website</h3>
+                    <p>this particular website is inspired by e-shopping 
+                        websites are already existed in the market</p>
+                    <a href="https://anandchenna.github.io/shopeasy/shop.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------contact-------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> anuchenna00000@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9390267639</p>
+                <div class="social-icons">
+                    <a href="https://github.com/ANANDCHENNA"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/chenna-anand-418916213"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ChennaAnu?t=Z8txYqgXH87atUXb4R5PVA&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/anand._.chenna?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/resume (2).pdf" download class="btn btn2">Download CV <i class="fa-solid fa-address-card"></i></a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-solid fa-copyright"></i> Chenna Anand 
+            <i id="heart" class="fa-solid fa-shield-heart"></i> | Made with 
+            <i id="html" class="fa-brands fa-html5"></i> 
+            <i id="css" class="fa-brands fa-css3-alt"></i>
+            <i id="js" class="fa-brands fa-square-js"></i> 
+            <i id="react" class="fa-brands fa-react"></i>
+            <i id="page" class="fa-solid fa-pager"></i>
+        </p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+    
+</script>
+
+
+</body>
+</html>
